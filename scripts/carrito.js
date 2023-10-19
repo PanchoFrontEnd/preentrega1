@@ -38,3 +38,37 @@ productsList.addEventListener('click', e => {
 	console.log(allProducts)
 
 })
+
+// Funcion para mostrar el HTML 
+const showHTML = () => {
+
+	allProducts.forEach(product => {
+		const containerProducts = document.createElement('div')
+		containerProducts.classList.add('cart-product')
+
+		containerProducts.innerHTML =`
+		<div class="info-cart-product">
+			<span class="cantidad-producto-carrito">${product.quantity} </span>
+			<p class="titulo-producto-carrito">${product.title}</p>
+			<span class="precio-producto-carrito">${product.price}</span>
+		</div>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke-width="1.5"
+			stroke="currentColor"
+			class="icon-close"  
+		>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				d="M6 18L18 6M6 6l12 12"
+			/>
+		</svg>
+	`;
+
+	rowProduct.append(containerProducts);
+	})
+    
+}
