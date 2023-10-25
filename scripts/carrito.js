@@ -17,6 +17,10 @@ const productsList = document.querySelector('.container-items');
 // Variable de arreglos de Productos
 let allProducts = [];
 
+const valorTotal = document.querySelector('.total-pagar')
+
+const countProducts = document.querySelector('#contador-productos')
+
 
 productsList.addEventListener('click', e => {
 	
@@ -66,6 +70,9 @@ const showHTML = () => {
 	//Limpiar HTML
     rowProduct.innerHTML = '';
 
+	let total = 0;
+	let totalOfProducts = 0;
+
 
 	allProducts.forEach(product => {
 		const containerProducts = document.createElement('div')
@@ -94,7 +101,14 @@ const showHTML = () => {
 	`;
 
 	rowProduct.append(containerProducts);
+
+	total = total + parseInt(product.quantity * product.price.slice(1));
+	totalOfProducts = totalOfProducts + product.quantity;
+
 	})
     
+	valorTotal.innerText = `$${total}`;
+	countProducts.innerText = totalOfProducts;
+
 }
 
