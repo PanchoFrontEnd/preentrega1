@@ -21,4 +21,4 @@ en segunda instacia agregando arrays y object a traves de consola el usuario pod
 
 ## Documentacion 2
 
-En este nuevo presente podremos notar que ahora el usuario podra interactuar con la pagina dandole una mejor experiencia añadiendo productos en su carrito de compras y tambien detallando su cantidad como su precio y su sumatoria 
+En este nuevo presente podremos notar que ahora el usuario podra interactuar con la pagina dandole una mejor experiencia añadiendo productos en su carrito de compras y tambien detallando su cantidad como su precio y su sumatoria, aparte con el localstorage y json el usuario sabra que productos ahi y que stock tiene tanto su precio como lo que es
