@@ -20,4 +20,3 @@ const productos = [
 localStorage.setItem("productos", JSON.stringify(productos));
 
 const productosEnLS = JSON.parse(localStorage.getItem("productos"));
-console.log(productosEnLS);
