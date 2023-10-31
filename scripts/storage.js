@@ -4,7 +4,6 @@
 
 const usuarioEnLS = JSON.parse(localStorage.getItem("usuario"));
 
-console.log(usuarioEnLS);
 
 /** ARRAY DE OBJETOS **/
 const productos = [
