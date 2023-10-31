@@ -13,7 +13,7 @@ const productos = [
     { nombre: "Smartwatch Apple", precio: 90 },
     { nombre: "Perfume Coco Channel", precio: 50 },
     
-
+    
 ];
 
 localStorage.setItem("productos", JSON.stringify(productos));
