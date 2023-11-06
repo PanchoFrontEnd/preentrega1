@@ -25,4 +25,4 @@ En este nuevo presente podremos notar que ahora el usuario podra interactuar con
 
 ## Documentacion 3
 
-En este nuevo presente podremos notar ya el proyecto finalizado con todas sus funcionalidades, y el usuario tendra toda la experiencia de agregar productos a su carrito con sweetalerts, local store json, aparte de una funcionalidad bastante buen con el html 
+En este nuevo presente podremos notar ya el proyecto finalizado con todas sus funcionalidades, y el usuario tendra toda la experiencia de agregar productos a su carrito con sweetalerts, local store json, aparte de una funcionalidad bastante buen con el html, ya que tiene librerias entre otras actualizaciones como promise, fetch a base de localjson etc...
