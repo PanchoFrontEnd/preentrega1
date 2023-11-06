@@ -25,7 +25,7 @@ const cartEmpty = document.querySelector('.cart-empty');
 const cartTotal = document.querySelector('.cart-total');
 
 productsList.addEventListener('click', e => {
-	if (e.target.classList.contains('btn-add-cart')) {
+	if (e.target.classList.contains('btn-add-cartt')) {
 		const product = e.target.parentElement;
 
 		const infoProduct = {
