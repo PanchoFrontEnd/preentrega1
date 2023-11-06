@@ -4,7 +4,7 @@ const baseDeDatos = [
     { id: "zapatillas", nombre: "Zapatilla Nike", precio: 80 },
     { id: "audifonos", nombre: "Audifonos Beats", precio: 20 },
     { id: "reloj", nombre: "Reloj Casio", precio: 50 },
-    { id: "smertwatch", nombre: "Smartwatch Apple", precio: 90 },
+    { id: "smartwatch", nombre: "Smartwatch Apple", precio: 90 },
     { id: "perfume", nombre: "Perfume Coco Chanel", precio: 50 }
 ];
 
