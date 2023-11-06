@@ -1,3 +1,4 @@
+//sweetalerts de los productos 
 
 const sweetAlert = document.querySelector("#sweetAlert")
 
