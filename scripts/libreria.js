@@ -1,4 +1,6 @@
 
+
+
 Swal.fire({
     title: 'Perfecto!',
     text: 'Tu produco se añadio al carrito',
@@ -6,4 +8,3 @@ Swal.fire({
     confirmButtonText: 'Continuar'
   })
 
-  

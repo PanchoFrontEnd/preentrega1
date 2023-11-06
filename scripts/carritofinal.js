@@ -65,8 +65,6 @@ rowProduct.addEventListener('click', e => {
 			product => product.title !== title
 		);
 
-		console.log(allProducts);
-
 		showHTML();
 	}
 });
